@@ -159,7 +159,7 @@ p{
 }
 
 .aboutme-image img{   
-    border: 3px solid brown;
+    border: 3px solid rgb(15, 47, 94);
     border-radius: 25%; 
     height: 220px;
     width: 200px; 
@@ -467,6 +467,9 @@ p{
     content: '';
     display: table;
     clear: both;
+}
+p span{
+    color: rgb(7, 46, 77);
 }
 span{
     color: chocolate;
