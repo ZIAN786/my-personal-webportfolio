@@ -236,7 +236,7 @@ p{
 .skills-container li{
     font-weight: bolder;
     list-style: none;
-    margin: 30px 10px;
+    margin: 22px 10px;
     position: relative;
     text-transform: uppercase;  
 }
@@ -329,7 +329,7 @@ p{
 
 @keyframes gis{
     to{
-        width: 92%;
+        width: 80%;
     }
 }
 
@@ -355,6 +355,33 @@ p{
         width: 65%;
     }
 }
+.skills-container li.PHP::after{
+    animation-name: PHP;
+ }
+ 
+ @keyframes PHP{
+     to{
+         width: 50%;
+     }
+ }
+ .skills-container li.PhotoShop::after{
+    animation-name: PhotoShop;
+ }
+ 
+ @keyframes PhotoShop{
+     to{
+         width: 95%;
+     }
+ }
+ .skills-container li.Illustrator::after{
+    animation-name: Illustrator;
+ }
+ 
+ @keyframes Illustrator{
+     to{
+         width: 88%;
+     }
+ }
 
 /* progress bar for skill div starts here  */
 
