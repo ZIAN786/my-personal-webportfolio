@@ -5,6 +5,7 @@
 }
 
 body{
+    background-color: rgb(21, 87, 126);
     margin: 0;
  }
 
@@ -16,6 +17,7 @@ h1{
 h2{    
     font-size: 1.5rem;
     text-align: center;
+    
 }
 
  a{
@@ -53,7 +55,7 @@ p{
 
 /* navbar design starts here  */
  .navbar{
-     background-color: #14656b;
+     background-color: rgb(2, 50, 80);
      /* background-image: linear-gradient(to right, green, orange); */
      padding: 1% 7%;
      text-align: center;
@@ -72,14 +74,14 @@ p{
  }
 
 .navbar-menu a{      
-     background-color: #0c6168;
+     
      border-radius: 10px;     
      margin: 7px 0px;  
      padding: 10px;      
  }
 
  .navbar-menu a:hover{
-    background-color: gray;
+    background-color: lightsalmon;
     /* text-decoration: underline; */
  }
 
@@ -90,7 +92,13 @@ p{
 }
 /* navbar design ends here  */
 
-
+.profile-desc{
+    color: white;
+}
+h3{
+    color: white;
+    text-align: center;
+}
 
 /* profile design starts here  */
 .profile{
@@ -144,9 +152,12 @@ p{
 
 
 /* about me starts here  */
+
+#about-me-id{
+    background-color:rgb(2, 50, 80);
+}
+
 .about-me{
-   
-    background-color: #39a4ac;
     color: white;
     font-family: 'Montserrat', sans-serif; 
     padding: 1% 7%;  
@@ -159,10 +170,11 @@ p{
 }
 
 .aboutme-image img{   
-    border: 3px solid rgb(15, 47, 94);
+    border: 5px solid rgb(2, 50, 80);
     border-radius: 25%; 
-    height: 220px;
-    width: 200px; 
+    height: auto;
+    width: 100%; 
+    
      
 }
 
@@ -171,7 +183,7 @@ p{
 }
 
 .cv-button{
-    background-color: #052d2f; 
+    background-color: rgb(24, 82, 136); 
     border: none;
     border-radius: 12px;
     color: white;
@@ -181,7 +193,9 @@ p{
     padding: 15px;
     text-align: center;
 }
-
+.cv-button:hover{
+    background-color: rgb(175, 71, 30);
+}
 .about-me::after{
     clear: both;
     content: '';   
@@ -399,7 +413,7 @@ p{
 /* achievement-contact div starts here  */
 .achievement-contact{
     padding: 1% 7%;
-    background-color: #14656b;
+    background-color: rgb(2, 50, 80);
     color: white; 
 }
 
@@ -423,13 +437,16 @@ p{
 .contact button{           
     border: none;
     border-radius: 12px;
-    background-color: #052d2f; 
+    background-color: rgb(24, 82, 136); 
     color: white;
     cursor: pointer;
     font-size: 1rem;
     margin: 10px; 
     padding: 15px;
     width: 100px;   
+}
+.contact button:hover{
+    background-color: rgb(175, 71, 30);
 }
 
 /* .contact input:focus, textarea:focus, button:focus{
@@ -457,7 +474,7 @@ p{
   
   /* Darker background on mouse-over */
   .btn:hover {
-    background-color: gray;
+    background-color: rgb(209, 148, 148) ;
   }
 
 
@@ -472,7 +489,7 @@ p{
 
 /* footer div starts here  */
 .footer{
-    background-color: black;
+    background-color: rgb(21, 87, 126);
     color: white;
     padding: 20px;
     text-align: center;
@@ -487,13 +504,16 @@ p{
 }
 
 .footer-menu a:hover{
-    color: gray;
+    background-color: rgb(230, 177, 31);
 }
 
 .footer::after{
     content: '';
     display: table;
     clear: both;
+}
+.footer-desc{
+    font-size: medium;
 }
 p span{
     color: rgb(7, 46, 77);
