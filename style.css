@@ -300,6 +300,7 @@ h4{
 @keyframes html{
     to{
         width: 90%;
+        
         /* background-color: orange; */
     }
 }
@@ -339,7 +340,7 @@ h4{
  
  @keyframes excel{
      to{
-         width: 100%;
+         width: 90%;
      }
  }
 
